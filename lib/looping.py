@@ -4,17 +4,17 @@
 ### while countdown is greater then 1 
 ### output value of countdown 
 ###  toa 1 from coutdown then at last happynew .......
-     
 def happy_new_year():
     countdown = 10
     
-    while countdown > 1:
+    while countdown >= 1:
         print(countdown)
-        countdown -= 2
+        countdown -= 1
     
-    print("Happy New Year")
+    print("Happy New Year!")
 
 happy_new_year()
+
 
 
 def square_integers(nums):
